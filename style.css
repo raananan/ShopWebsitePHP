@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+    font-family: cursive;
+    margin: 0;
+    position: relative;
+}
+
+
+.container_fluid {
+    width: 100%;
+}
+
+header {
+    min-height: 60px;
+    background-color: white;
+}
+header .logo{
+    max-width: 260px;
+    float: right;
+     display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+a{
+    direction: rtl;
+}
+
+header .logo span{
+    width: 100%;
+}
+
+.letters {
+    margin-left: 40%;
+    width: 30%; 
+}
+#HeaderWeb{
+   height: 50px;
+    display: inline;
+    width: 300px;
+    margin-left: 0px;
+}
+
+
+.cart{
+    position: absolute;
+    top:0;
+}
+
+nav{
+    min-height: 60px;
+    background-color:aliceblue;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ .dropdown li:hover{
+    background-color:floralwhite;
+}
+ option:hover{
+    background-color: aqua;
+}
+nav li{
+    display: inline-block;
+    border: 2px solid black;
+    width: 16.65%;
+    float: right;
+    min-height: 60px;
+}
+
+.strip {
+    min-height: 250px;
+    background-color: white;
+}
+
+.block {
+    min-height: 1200px;
+    background-color: coral;
+}
+
+footer {
+    min-height: 20px;
+    background-color: red;
+    overflow:auto;
+    color: white;
+}
+
+ #userlogo{
+        font-size:30px;
+     clear: both;
+     display:none;
+    }
+
+.container {
+  
+    margin: 0 auto;
+    border: 12px soild black;
+    min-height: inherit;
+}
+
+@media screen and (max-width:720px){
+     nav{
+        display: none;
+    }
+    #userlogo{
+        display: block;
+        font-size: 45px;
+    }
+    p,p1,#myspan
+    {
+        display: none;
+    }
+    .burger{
+        display: block !important;
+    }
+   h1
+    {font-size: 18px;
+    }
+     nav li{
+        width: 100%;
+    }
+     .dropdown li>.drop_content {
+        width:100%;
+    }
+}
+
+ .burger{
+    font-size: 2.6em;
+    float: right;
+    display: none;
+}
+
+.drop_content {
+    transition: 0.9s;
+    display: none;
+    position: absolute;
+    background-color:azure;
+    width: 16.55%;
+    text-align: right;
+    box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+    transition: .8s ease;
+    margin-left: -1px;
+    
+}
+.dropdown li
+{
+    transition: 0.9s;
+    font-size:32px;
+    text-align: center;
+}
+
+.drop_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+    border: 2px solid black;
+     transition: 0.5s;
+}
+.dropdown:hover .drop_content {
+  display: block;
+}
+.drop_content a:hover {
+    background-color:gainsboro;
+}
+
+.x_logo {
+    display: none;
+}
+
+
+
+#register_form {
+     position: absolute; 
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: none;
+    opacity: 0.8;
+}
+
+#home {
+    display: none;
+   float: right;
+}
+
+#mySelect {
+    float: right;
+}
+
+#order {
+   
+    background-color: aqua;
+    display: none;
+    opacity: 0.8;
+}
+
+#data {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: visible;
+    
+}
+
+#regdiv {
+    height:100%;
+    width:100%;
+    background-color:green;
+    position:absolute;
+    opacity:0.8;
+    overflow: hidden;
+     display: none;
+}
+
+#regform {
+    width: 22%;
+    height: 8%;
+    margin: auto;
+    text-align: center;
+    margin-top: 12%;
+    background-color: aqua;
+}
+
+#IDLabel {
+    float:right;
+    padding:3px;
+    font-size:26px;
+    margin-top: 0px;
+}
+
+#name {
+    float: right;
+}
+
+#p1 {
+    float: right;
+}
+
+#x_logo {
+    font-size:80px; 
+    float: right;
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    right: 4%;
+}
+
+
+#sum {
+    background-color: red;
+    position: absolute;
+    opacity: 0.9;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+table{
+    background-color: aqua;
+}
